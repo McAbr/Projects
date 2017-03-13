@@ -1,0 +1,105 @@
+  /*--------------*/
+ /*--background--*/
+/*--------------*/
+body {
+	margin: 0;
+	background-image: url(pexels-photo-48694.jpeg);
+	background-size: auto;
+	background-position: 0;
+	font-family: "arial", helvetica, sans-serif;
+}
+
+.back {
+	margin: 0 0 0 0;
+	background-color: rgba(33,50,41,0.5);
+}
+
+  /*------------------*/
+ /*top navigation bar*/
+/*------------------*/
+nav {
+	height: 30px;
+	font-size: 20px;}
+
+nav img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 10px;}
+
+ul li {
+	display: inline;
+	margin: 10px;}
+
+li a {
+	color: grey;
+	text-decoration: none;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;}
+
+li>a:hover {color: white;}
+
+  /*---------------*/
+ /*---side menu---*/
+/*---------------*/
+aside {
+	float: left;
+	position: fixed;
+	margin-left: 20px;
+	font-size: 15px;
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;}
+
+aside a {
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);}
+
+aside a:hover {color: white;}
+
+  /*------------*/
+ /*---resume---*/
+/*------------*/
+#moi {
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+	color: rgb(230,230,230);
+	height: 650px;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 150px 110px;
+	background-color: rgb(50,50,50);
+}
+
+.resume {
+	position: absolute;
+	top: 35%;
+	margin-top: 50px;
+	top: 50%;
+}
+
+form {
+
+}
+
+.button {
+	background-color: rgba(0,0,0,0);
+	color: white;
+	font-size: 18px;
+	border: 1.5px solid green;
+	padding: 20px 70px;
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+}
+
+.button:hover {
+	background-color: green;
+	/*color: rgb(50,50,50);*/
+	cursor: pointer;
+}

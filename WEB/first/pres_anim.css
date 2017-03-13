@@ -1,0 +1,45 @@
+body {
+	padding-left: 220px;
+	background-image: url("Doge_is_Moon.jpg");
+	background-attachment: fixed;
+	color: white;
+}
+
+#HautdePage {
+	text-align: center;
+	margin-top: -10px;
+	margin-left: ;
+	color: pink;
+	background-color: purple;
+	height: 100px;
+	width: 750px;
+	font-size: 20px;
+	text-decoration: line-through;
+}
+
+nav {
+	position: fixed;
+	float: left;
+	margin: -140px 0 0 -230px;
+	background-color: lightblue;
+	background-position: left top;
+	height: 950px;
+	width: 222px;
+}
+
+nav>h2 { margin-left: 20px; }
+
+nav li {
+	color: red;
+	margin-left: 0px;
+}
+
+a {
+	color: red;
+}
+
+.searchbar { margin-left: 10px; width: 200px; height: auto; display: inline-block; }
+
+.searchbar .champ { width: 120px; height: 30px; }
+
+.searchbar .button { height: 30px; width: 60px; }
